@@ -175,7 +175,7 @@ export default function ProductForm({
         value={description}
         onChange={(ev) => setDescription(ev.target.value)}
       />
-      <label>Price (in USD)</label>
+      <label>Price (in Rs)</label>
       <input
         type="number"
         placeholder="price"
